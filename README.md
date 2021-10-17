@@ -1,2 +1,2 @@
 # tf-azure-key-vault
-Terraform from Azure Key Vault
+Terraform to Azure Key Vault - A simple approach
