@@ -6,23 +6,27 @@
 variable "azure-subscription-id" {
   type        = string
   description = "Required Input - Azure Subscription ID"
-  default     = ""
+  default     = "0000-0000-0000-0000-000000000000"
+  sensitive   = true
 }
 
 variable "azure-client-id" {
   type        = string
   description = "Required Input - Azure Client ID"
-  default     = ""
+  default     = "0000-0000-0000-0000-000000000000"
+  sensitive   = true
 }
 
 variable "azure-client-secret" {
   type        = string
   description = "Required Input - Azure Client Secret"
-  default     = ""
+  default     = "0000-0000-0000-0000-000000000000"
+  sensitive   = true
 }
 
 variable "azure-tenant-id" {
   type        = string
   description = "Required Input - Azure Tenant ID"
-  default     = ""
+  default     = "0000-0000-0000-0000-000000000000"
+  sensitive   = true
 }
